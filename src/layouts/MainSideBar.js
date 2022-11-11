@@ -180,8 +180,8 @@ function MainSideBar() {
                   }
                 })}
                 sx={{
-                  width: "150px",
-                  height: "120px",
+                  width: "200px",
+                  height: "150px",
                   boxShadow: "0.5px 0.5px 1px 1px lightgrey",
                 }}
                 title="Discover"
@@ -198,7 +198,7 @@ function MainSideBar() {
                   movieList={auth.bookmarks.slice(0, 3)}
                   sx={{
                     width: "140",
-                    height: "140",
+                    height: "120",
                   }}
                   title="Bookmarks"
                   text="See all"

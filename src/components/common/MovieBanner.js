@@ -16,7 +16,7 @@ function MovieBanner({ props }) {
       <Link to={`/movies/${movie.id}`} state={{ backgroundLocation: location }}>
         <CardMedia
           component="img"
-          image={`https://image.tmdb.org/t/p/w500/${movie["poster_path"]}`}
+          image={`https://image.tmdb.org/t/p/w500/${movie["backdrop_path"]}`}
           alt="green iguana"
           sx={{ objectFit: "fill", objectPosition: "center" }}
         />

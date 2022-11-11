@@ -15,8 +15,8 @@ import useAuth from "../../hooks/useAuth";
 import { FormProvider, FTextField } from "../forms";
 
 const defaultValues = {
-  username: "",
-  password: "",
+  username: "Joanne",
+  password: 123,
 };
 
 function DialogForm() {
