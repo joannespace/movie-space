@@ -70,12 +70,12 @@ function HomePage() {
     return (
       <Stack spacing={2}>
         <HomeBanner upcomings={movieLists.upcomings} />
-        <Container>
+        <Container sx={{ minWidth: "100%" }}>
           <HomeMovieList
             movieList={movieLists.trends}
             sx={{
               width: "260px",
-              height: "160px",
+              height: "200px",
             }}
             noImgRender={3}
             title="MOVIES ON TRENDS"
@@ -87,7 +87,7 @@ function HomePage() {
             movieList={movieLists.topMovies}
             sx={{
               width: "180px",
-              height: "140px",
+              height: "150px",
             }}
             noImgRender={4}
             title="TOP MOVIES"
@@ -101,7 +101,7 @@ function HomePage() {
             genres={movieLists.genres}
             sx={{
               width: "260px",
-              height: "160px",
+              height: "200px",
             }}
           />
         </Container>
