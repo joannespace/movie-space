@@ -74,8 +74,8 @@ function HomePage() {
           <HomeMovieList
             movieList={movieLists.trends}
             sx={{
-              width: "260px",
-              height: "200px",
+              width: "350px",
+              height: "280px",
             }}
             noImgRender={3}
             title="MOVIES ON TRENDS"
@@ -86,8 +86,8 @@ function HomePage() {
           <HomeMovieList
             movieList={movieLists.topMovies}
             sx={{
-              width: "180px",
-              height: "150px",
+              width: "200px",
+              height: "180px",
             }}
             noImgRender={4}
             title="TOP MOVIES"
@@ -101,7 +101,7 @@ function HomePage() {
             genres={movieLists.genres}
             sx={{
               width: "260px",
-              height: "200px",
+              height: "210px",
             }}
           />
         </Container>

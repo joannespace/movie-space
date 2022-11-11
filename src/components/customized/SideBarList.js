@@ -36,7 +36,14 @@ function SideBarList({
         </Link>
       </Stack>
 
-      <Grid container spacing={2} flexWrap="wrap" display="flex" m="auto">
+      <Grid
+        container
+        spacing={2}
+        flexWrap="wrap"
+        display="flex"
+        justifyContent={movieList.length % 2 === 0 ? "center" : "flex-start"}
+        margin="auto"
+      >
         {movieList.slice(0, 6).map((movie) => {
           if (bookmarkType === "marked") {
             return (

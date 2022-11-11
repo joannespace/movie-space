@@ -47,7 +47,6 @@ function HomeMovieList({ movieList, sx, noImgRender, title, xs, md }) {
         flexWrap="wrap"
         display="flex"
         justifyContent="center"
-        flexGrow={1}
       >
         {movieList.slice(pagination.from, pagination.to).map((movie) => {
           return (
